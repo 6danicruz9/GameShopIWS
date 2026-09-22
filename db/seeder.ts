@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
 import mongoose, { Types } from 'mongoose';
-import Users, { User } from '@../src/models/User';
+import Users, { User } from '../src/models/User';
 import Products, { Product } from '../src/models/Product';
 
 dotenv.config({ path: `.env.local`, override: true });

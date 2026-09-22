@@ -1,5 +1,5 @@
 import Products, { Product } from '@/models/Product';
-import Users, { User } from '@/models/User';
+import Users, { User } from '../models/User';
 import connect from '@/lib/mongoose';
 import { Types } from 'mongoose';
 
